@@ -1,8 +1,20 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Clone or Download ZIP. Extract and open in Visual Studio Code and run `npm install` and `npm start`.
+1. On lesson button click, the ojectives for the lesson are diplayed.
+2. Clicking on each objective displays video link, thumbnail.
+3. Click on buttons (Done, NotDoing, NextClass) changes the state (border color of objectives) of the objective.
+4. The state (background color) of the lesson changes to green when all the objectives are `Done`. Current lesson will have white background color and the default will be orange.
+5. On clicking the thumbnail, video plays.
+6. `View Activity` and `View Classflow` diplays the activities and classflow for each objective (on selecting objective) in a modal.
+
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+
+Run `npm install` to install dependencies in the local node_modules folder.
 
 ### `npm start`
 
